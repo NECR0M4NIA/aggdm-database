@@ -1,21 +1,30 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    font-family: "Poppins";
+    margin: 64px;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #000000, #000000);
+    color: white;
 }
+
 table {
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 30px;
 }
-th, td {
-    border: 1px solid #333;
+
+th,
+td {
+    border: 2px solid #333;
     padding: 8px 12px;
-    text-align: left;
-}
-th {
-    background-color: #eee;
-}
-h2 {
-    margin-top: 40px;
+    text-align: center;
+    background-color: #7c000060;
 }
 
+th {
+    background-color: #630000bd;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+}
